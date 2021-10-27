@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FlorarieForm">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="8" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="57" y="294" width="700" height="600"/>
+    </constraints>
+    <properties>
+      <alignmentX value="1.0"/>
+      <alignmentY value="1.0"/>
+      <background color="-5051731"/>
+      <font name="Bradley Hand ITC" size="18" style="3"/>
+      <maximumSize width="700" height="600"/>
+      <minimumSize width="700" height="600"/>
+      <preferredSize width="700" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="b67c4" class="javax.swing.JLabel" binding="nume_site">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bradley Hand ITC" size="20" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="                                                &#10; www.Flora.ro"/>
+        </properties>
+      </component>
+      <component id="a6a8e" class="javax.swing.JLabel" binding="mesaj">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bradley Hand ITC" size="20" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="                             Bine ati venit la floraria noastra online!"/>
+        </properties>
+      </component>
+      <component id="64d3c" class="javax.swing.JLabel" binding="gol">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b9c21" class="javax.swing.JLabel" binding="buchete" custom-create="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="4d4a9" class="javax.swing.JLabel" binding="bulbi" custom-create="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b3ca3" class="javax.swing.JLabel" binding="butasi_trandafiri" custom-create="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d5e72" class="javax.swing.JButton" binding="btn2">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cumpara"/>
+        </properties>
+      </component>
+      <component id="1026b" class="javax.swing.JButton" binding="btn1">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cumpara"/>
+        </properties>
+      </component>
+      <component id="43b4d" class="javax.swing.JButton" binding="btn3">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cumpara"/>
+        </properties>
+      </component>
+      <component id="2d466" class="javax.swing.JButton" binding="cosDeCumparaturiButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cos de cumparaturi"/>
+        </properties>
+      </component>
+      <component id="1ff78" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8618d" class="javax.swing.JLabel" binding="buchete_text">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bradley Hand ITC" size="14" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="Buchete"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="a206b" class="javax.swing.JLabel" binding="Flori_perene_text">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bradley Hand ITC" size="14" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="Flori perene"/>
+        </properties>
+      </component>
+      <component id="424ba" class="javax.swing.JLabel" binding="butasi_trandafiri_text">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <font name="Bradley Hand ITC" size="14" style="3"/>
+          <foreground color="-16777216"/>
+          <text value="Trandafiri"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
